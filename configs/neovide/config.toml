@@ -1,0 +1,9 @@
+# Place this in the config folder for neovide
+
+multigrid = true
+vsync = false
+maximized = false
+srgb = false
+idle = true
+neovim_bin = "/usr/bin/nvim"
+frame = "Full"

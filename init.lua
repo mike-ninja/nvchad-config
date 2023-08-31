@@ -7,7 +7,7 @@
 -- })
 --
 --
-require('custom.configs.neovide')
+require('custom.configs.neovide.neovide')
 
 -- Searching Functionalities
 vim.opt.hlsearch = false
