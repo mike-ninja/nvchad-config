@@ -7,12 +7,13 @@
 -- })
 --
 --
+require('custom.configs.neovide')
 
 -- Searching Functionalities
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.opt.cursorline = true
-vim.opt.colorcolumn = '80'
 vim.opt.scrolloff = 8
 vim.wo.relativenumber = true
 vim.opt.wrap = false
+-- vim.opt.colorcolumn = "80"
