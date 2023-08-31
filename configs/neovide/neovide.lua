@@ -1,9 +1,9 @@
-local status, neovide = pcall(require, "neovide")
+local status = pcall(require, "neovide")
 if not status then
   return
 end
 
-vim.o.guifont = "Fira Code:h14" -- text below applies for VimScript
+vim.o.guifont = "Fira Code:h14"
 vim.opt.linespace = 0
 vim.g.neovide_scale_factor = 1.0
 vim.g.neovide_padding_top = 0
