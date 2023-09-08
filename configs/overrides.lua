@@ -64,4 +64,9 @@ M.nvimtree = {
   },
 }
 
+-- Colorizer
+M.colorizer = {
+  tailwind = true,
+}
+
 return M

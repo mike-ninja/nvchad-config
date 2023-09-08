@@ -15,5 +15,11 @@ for _, lsp in ipairs(servers) do
   }
 end
 
--- 
+-- Add folding capabilities required by ufo.nvim
+capabilities.textDocument.foldingRange = {
+  dynamicRegistration = false,
+  lineFoldingOnly = true,
+}
+
+--
 -- lspconfig.pyright.setup { blabla}
