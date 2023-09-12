@@ -13,7 +13,6 @@ M.general = {
     ["<C-a>"] = { 'gg<S-v>G', "Select all" },
     ["<C-d>"] = { '<C-d>zz', "Move down" },
     ["<C-u>"] = { '<C-u>zz', "Move up" },
-    ["<C-m>"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree" },
   },
   i = {
     ["<C-o>"] = { "<ESC>^o", "New Line Down" },
